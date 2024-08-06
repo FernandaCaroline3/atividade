@@ -1,13 +1,14 @@
 #include <stdio.h>
  
 int main() {
+    
+    double A = 0;
+    double R = 0;
+    double PI = 3.14159;
+    scanf("%lf",&R);
+    A = PI * (R*R);
  
-    int A = 0;
-    int B = 0;
-    int X = 0;
-    scanf("%d\n%d",&A,&B);
-    X = A+B;
-    printf("X = %d\n",X);
+    printf("A=%.4lf\n",A);
  
     return 0;
 }
